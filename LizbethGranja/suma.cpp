@@ -1,12 +1,13 @@
+Ejercicio Version 2
 #include<iostream>
 using namespace std;
 int main()
 {
-	float A,B,C;
-	cout<<"Ingrese 2 numero A B:";
-	cin>>A>>B;
-	C=A+B;
+	float X,Y,Z;
+	cout<<"Ingrese 2 numero separados por esapcio X Y :";
+	cin>>X>>Y;
+	Z=X+Y;
 	cout<<"El resultado es:";
-	cout<<C;
+	cout<<Z<<endl;
 	return 0;
 }
