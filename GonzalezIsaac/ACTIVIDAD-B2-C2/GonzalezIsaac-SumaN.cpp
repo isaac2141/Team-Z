@@ -1,7 +1,10 @@
-//=======Nombre de programa: Suma de dos numeros//====Archivo:GonzalezIsaac-SumaN.cpp
-//====Autor: Gonzalez Isaac
-//====Fecha de elaboracion: 02-05-2022
-//====Fecha de ultima actualizacion: 12-05-2022
+//======================================================
+//==> Nombre del programa: Suma de numeros
+//==> Archivo: GonzalezIsaac-SumaN.cpp
+//==> Autor: Gonzalez Isaac
+//==> Fecha de elaboracion: 02-05-2022
+//==> Fecha de ultima actualizacion: 12-05-2022
+//======================================================
 #include<iostream>
 using namespace std;
 int main()
@@ -16,13 +19,13 @@ int main()
 		GI_C=GI_C+1;
 		GI_S=GI_S+GI_x;
 	}while(GI_C<GI_b);
-	
-cout<<"//=======Nombre de programa: Suma de dos numeros"<<endl;
-cout<<"//====Archivo:GonzalezIsaac-SumaN.cpp"<<endl;
-cout<<"//====Autor: Gonzalez Isaac"<<endl;
-cout<<"//====Fecha de elaboracion: 02-05-2022"<<endl;
-cout<<"//====Fecha de ultima actualizacion: 12-05-2022"<<endl;
-
+cout<<"//================================================"<<endl;	
+cout<<"//==> Nombre de programa: Suma de numeros"<<endl;
+cout<<"//==> Archivo: GonzalezIsaac-SumaN.cpp"<<endl;
+cout<<"//==> Autor: Gonzalez Isaac"<<endl;
+cout<<"//==> Fecha de elaboracion: 02-05-2022"<<endl;
+cout<<"//==> Fecha de ultima actualizacion: 12-05-2022"<<endl;
+cout<<"//================================================="<<endl;
 
 	cout<<"La suma total es:  "<<GI_S<<endl;
 	return 0;
