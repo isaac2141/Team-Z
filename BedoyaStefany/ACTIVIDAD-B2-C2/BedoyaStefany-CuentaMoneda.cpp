@@ -1,6 +1,6 @@
 //====================================
 //===> Nombre del Programa: Conteo de monedas 
-//===> Archivo: CuentaMoneda.cpp
+//===> Archivo: BedoyaStefany-CuentaMoneda.cpp
 //===> Autor: Bedoya Napa Stefany Mishelle
 //===> Fecha de realización: 30/04/2022
 //===> Fecha de actualización: 18/05/2022
@@ -11,7 +11,7 @@ int main()
 {
 cout<<"//=========================================="<<endl;
 cout<<"//===> Nombre del Programa:Conteo de monedas"<<endl;
-cout<<"//===> Archivo:CuentaMoneda.cpp"<<endl;
+cout<<"//===> Archivo:BedoyaStefany-CuentaMoneda.cpp"<<endl;
 cout<<"//===> Autor:Bedoya Napa Stefany Mishelle"<<endl;
 cout<<"//===> Fecha de realización:30/04/2022"<<endl;
 cout<<"//===> Fecha de actualizacion:18/05/2022"<<endl<<endl;
