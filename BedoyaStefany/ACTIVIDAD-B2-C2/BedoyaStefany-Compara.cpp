@@ -1,6 +1,6 @@
 //===================================================
 // ===> Nombre del Programa:Comparación de 2 números
-// ===> Archivo:Compara.cpp
+// ===> Archivo:BedoyaStefany-Compara.cpp
 // ===> Autor:Bedoya Napa Stefany Mishelle
 // ===> Fecha de Elaboración:30/04/2022
 // ===> Fecha de Actualización:18/05/2022
@@ -13,7 +13,7 @@ int main()
 {
 cout<<"//========================================"<<endl;
 cout<<"// Nombre del Programa:Comparación de 2 números"<<endl;
-cout<<"// Archivo:Compara.cpp"<<endl;
+cout<<"// Archivo:BedoyaStefany-Compara.cpp"<<endl;
 cout<<"// Autor: Bedoya Napa Stefany Mishelle"<<endl;
 cout<<"// Fecha de elaboración:30/04/2022"<<endl;
 cout<<"// Fecha de Actualización:18/05/2022"<<endl;
