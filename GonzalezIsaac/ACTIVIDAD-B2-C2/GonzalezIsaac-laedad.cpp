@@ -9,30 +9,30 @@
 using namespace std;
 int main()
 {
-	int GI_dd,GI_mm,GI_yy,GI_dd1,GI_mm1,GI_yy1,GI_da,GI_ma,GI_ya;
+	int IS_dd,IS_mm,IS_yy,IS_dd1,IS_mm1,IS_yy1,IS_da,IS_ma,IS_ya;
 	cout<<"Ingrese la Fecha Actual: Dia Mes Año "<<endl;
-	cin>>GI_dd>>GI_mm>>GI_yy;
+	cin>>IS_dd>>IS_mm>>IS_yy;
 	cout<<"Ingrese la Fecha de Nacimiento: Dia Mes Año "<<endl;
-	cin>>GI_dd1>>GI_mm1>>GI_yy1;
-	if(GI_dd<GI_dd1){
+	cin>>IS_dd1>>IS_mm1>>IS_yy1;
+	if(IS_dd<IS_dd1){
 
-		GI_dd=GI_dd+30;
-		GI_mm=GI_mm-1;
-		GI_da=GI_dd-GI_dd1;
+		IS_dd=IS_dd+30;
+		IS_mm=IS_mm-1;
+		IS_da=IS_dd-IS_dd1;
 	}
 	else{
-		GI_da=GI_dd-GI_dd1;
+		IS_da=IS_dd-IS_dd1;
 	}
-	if(GI_mm<GI_mm1){
-		GI_mm=GI_mm+12;
-		GI_yy=GI_yy-1;
-		GI_ma=GI_mm-GI_mm1;
+	if(IS_mm<IS_mm1){
+		IS_mm=IS_mm+12;
+		IS_yy=IS_yy-1;
+		IS_ma=IS_mm-IS_mm1;
 	}
 	else{
-		GI_ma=GI_mm-GI_mm1;
+		IS_ma=IS_mm-IS_mm1;
 	}
 	cout<<"//================================================"<<endl;                       cout<<"//==> Nombre de programa: Descrifrar la edad"<<endl;                                     cout<<"//==> Archivo: GonzalezIsaac-laedad.cpp"<<endl;                                          cout<<"//==> Autor: Gonzalez Isaac"<<endl;      cout<<"//==> Fecha de elaboracion: 02-05-2022"<<endl;                                           cout<<"//==> Fecha de ultima actualizacion: 18-05-2022"<<endl;                                  cout<<"//================================================="<<endl;
-	GI_ya=GI_yy-GI_yy1;
-	cout<<"Usted Tiene: "<<GI_ya<<" años "<<GI_ma<<" meses "<<" y "<<GI_da<<" dias "<<endl;
+	IS_ya=IS_yy-IS_yy1;
+	cout<<"Usted Tiene: "<<IS_ya<<" años "<<IS_ma<<" meses "<<" y "<<IS_da<<" dias "<<endl;
 	return 0;
 }
