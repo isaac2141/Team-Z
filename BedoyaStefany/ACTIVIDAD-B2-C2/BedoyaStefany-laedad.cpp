@@ -1,30 +1,45 @@
+//======================================================
+// ===> Nombre del Programa: Calculo de Edad de uma persona
+// ===> Archivo: laedad.cpp
+// ===> Autor: Bedoya Napa Stefany Mishelle
+// ===> Fecha de Elaboracion: 30/04/2022
+// ===> Fecha de Actualizacion: 18/05/2022
+// =====================================================
+
 #include<iostream>
 using namespace std;
 int main()
 {
-	int dctl,mctl,actl,dnac,mnac,anac,da,ma,ya;
+cout<<"//=============================================="<<endl;
+cout<<"//===> Nombre del Programa:Calculo de la edad de una persona"<<endl;
+cout<<"//===> Archivo:laedad.cpp"<<endl;
+cout<<"//===> Autor: Bedoya Napa Stefany Mishelle"<<endl;
+cout<<"//===> Fecha de elaboracion:30/04/2022"<<endl;
+cout<<"//===> Fecha de Actualizacion:18/04/2022"<<endl;
+cout<<"//=============================================="<<endl<<endl;
+	int SN_dd,SN_mm,SN_yy,SN_dd1,SN_mm1,SN_yy1,SN_da,SN_ma,SN_ya;
 	cout<<"Ingrese la Fecha Actual: Dia Mes Año "<<endl;
-	cin>>dctl>>mctl>>actl;
+	cin>>SN_dd>>SN_mm>>SN_yy;
 	cout<<"Ingrese la Fecha de Nacimiento: Dia Mes Año "<<endl;
-	cin>>dnac>>mnac>>anac;
-	if(dctl<dnac){
-		dctl=dctl+30;
-		mctl=mctl-1;
-		da=dctl-dnac;
+	cin>>SN_dd1>>SN_mm1>>SN_yy1;
+	if(SN_dd<SN_dd1){
+		SN_dd=SN_dd+30;
+		SN_mm=SN_mm-1;
+		SN_da=SN_dd-SN_dd1;
 	}
 	else{
-		da=dctl-dnac;
+		SN_da=SN_dd-SN_dd1;
 	}
-	if(mctl<mnac){
-		mctl=mctl+12;
-		actl=actl-1;
-		ma=mctl-mnac;
+	if(SN_mm<SN_mm1){
+		SN_mm=SN_mm+12;
+		SN_yy=SN_yy-1;
+		SN_ma=SN_mm-SN_mm1;
 	}
 	else{
-		ma=mctl-mnac;
+		SN_ma=SN_mm-SN_mm1;
 	}
-	ya=actl-anac;
-	cout<<"Usted Tiene: "<<ya<<" años "<<ma<<" meses "<<" y "<<da<<" dias "<<endl;
+	SN_ya=SN_yy-SN_yy1;
+	cout<<"Usted Tiene: "<<SN_ya<<" años "<<SN_ma<<" meses "<<" y "<<SN_da<<" dias "<<endl;
 	return 0;
 }
 
