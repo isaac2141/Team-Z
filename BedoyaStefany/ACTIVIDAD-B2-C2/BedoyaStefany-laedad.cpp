@@ -1,6 +1,6 @@
 //======================================================
 // ===> Nombre del Programa: Calculo de Edad de uma persona
-// ===> Archivo: laedad.cpp
+// ===> Archivo: BedoyaStefany-laedad.cpp
 // ===> Autor: Bedoya Napa Stefany Mishelle
 // ===> Fecha de Elaboracion: 30/04/2022
 // ===> Fecha de Actualizacion: 18/05/2022
@@ -12,7 +12,7 @@ int main()
 {
 cout<<"//=============================================="<<endl;
 cout<<"//===> Nombre del Programa:Calculo de la edad de una persona"<<endl;
-cout<<"//===> Archivo:laedad.cpp"<<endl;
+cout<<"//===> Archivo:BedoyaStefany-laedad.cpp"<<endl;
 cout<<"//===> Autor: Bedoya Napa Stefany Mishelle"<<endl;
 cout<<"//===> Fecha de elaboracion:30/04/2022"<<endl;
 cout<<"//===> Fecha de Actualizacion:18/04/2022"<<endl;
