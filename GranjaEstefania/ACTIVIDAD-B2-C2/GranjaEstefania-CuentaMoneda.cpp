@@ -1,34 +1,48 @@
+//==============================================//===>Nombre del Programa:Contador de Moneda
+//===>Archivo: CuentaMoneda.cpp
+//===>Autor:Granja Jaramillo Estefania Lizbeth
+//===>Fecha de Creacion:23/04/2022
+//===>Fecha de Actualizacion:19/05/2022
+//==============================================
 #include<iostream>
 using namespace std;
 int main()
 {
-	int n,c=0,c1=0,c2=0,c3=0;
-	float x,a=0,a1=0,a2=0,a3=0;
+
+cout<<"//=============================================="<<endl;
+cout<<"//===>Nombre del Programa:Contador de Moneda"<<endl;
+cout<<"//===>Archivo: CuentaMoneda.cpp"<<endl;
+cout<<"//===>Autor:Granja Jaramillo Estefania Lizbeth"<<endl;
+cout<<"//===>Fecha de Creacion:23/04/2022"<<endl;
+cout<<"//===>Fecha de Actualizacion:19/05/2022"<<endl;
+cout<<"//============================================="<<endl<<endl;
+	int JE_n,JE_c=0,JE_c1=0,JE_c2=0,JE_c3=0;
+	float JE_x,JE_a=0,JE_a1=0,JE_a2=0,JE_a3=0;
 	cout<<"Cantidad de monedas a ingresar: ";
-	cin>>n;
+	cin>>JE_n;
 	do{
 		cout<<"Ingrese el valor de la moneda (0.10,0.25,0.50): ";
-	   cin>>x;
-	   c=c+1;
-	   a=a+x;
-	   if(x==(float)0.10){
-	   c1=c1+1;
-	   a1=a1+x;
-	   }else if(x==(float)0.25){
-	   c2=c2+1;
-	   a2=a2+x;
+	   cin>>JE_x;
+	   JE_c=JE_c+1;
+	   JE_a=JE_a+JE_x;
+	   if(JE_x==(float)0.10){
+	   JE_c1=JE_c1+1;
+	   JE_a1=JE_a1+JE_x;
+	   }else if(JE_x==(float)0.25){
+	   JE_c2=JE_c2+1;
+	   JE_a2=JE_a2+JE_x;
 	   }else {
-	   c3=c3+1;
-	   a3=a3+x;}
-	}while(c<n);
+	   JE_c3=JE_c3+1;
+	   JE_a3=JE_a3+JE_x;}
+	}while(JE_c<JE_n);
 	cout<<"El resultado fue: "<<endl;
-	cout<<"Cantidad de monedas ingresadas: "<<c<<endl;
-	cout<<"Cantidad total en dinero contado: $ "<<a<<endl;
-	cout<<"Cantidad de monedas de 0.10ctv ingresadas: "<<c1<<endl;
-	cout<<"Cantidad total en dinero de monedas de 0.10: $"<<a1<<endl;
-	cout<<"Cantidad de monedas de 0.25ctv ingresadas: "<<c2<<endl;
-	cout<<"Cantidad total en dinero de monedas de 0.25: $"<<a2<<endl;
-	cout<<"Cantidad de monedas de 0.50ctv ingresadas: "<<c3<<endl;
-	cout<<"Cantidad total en dinero de monedas de 0.50: $"<<a3<<endl;
+	cout<<"Cantidad de monedas ingresadas: "<<JE_c<<endl;
+	cout<<"Cantidad total en dinero contado: $ "<<JE_a<<endl;
+	cout<<"Cantidad de monedas de 0.10ctv ingresadas: "<<JE_c1<<endl;
+	cout<<"Cantidad total en dinero de monedas de 0.10: $"<<JE_a1<<endl;
+	cout<<"Cantidad de monedas de 0.25ctv ingresadas: "<<JE_c2<<endl;
+	cout<<"Cantidad total en dinero de monedas de 0.25: $"<<JE_a2<<endl;
+	cout<<"Cantidad de monedas de 0.50ctv ingresadas: "<<JE_c3<<endl;
+	cout<<"Cantidad total en dinero de monedas de 0.50: $"<<JE_a3<<endl;
 	return 0;
 }
