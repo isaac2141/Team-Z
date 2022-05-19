@@ -1,6 +1,6 @@
 //================================================
 // ===> Nombre del Programa:calculo de Iva y Descuento
-// ===> Archivo:PuntoVenta.cpp
+// ===> Archivo:BedoyaStefany-PuntoVenta.cpp
 // ===> Autor:Bedoya Napa Stefany Mishelle 
 // ===> Fecha de elaboración:30/04/2022
 // ===> Fecha de actualizacion:18/05/2022
@@ -11,7 +11,7 @@ int main()
 {
 cout<<"//=========================================="<<endl;
 cout<<"// Nombre del Programa:Calculo de Iva y Descuento"<<endl;
-cout<<"// Archivo:PuntoVenta.cpp"<<endl;
+cout<<"// Archivo:BedoyaStefany-PuntoVenta.cpp"<<endl;
 cout<<"// Autor:BedoyaNapaStefanyMishelle"<<endl;
 cout<<"// Fecha de elaboracion:30/04/2022"<<endl;
 cout<<"//=========================================="<<endl;
