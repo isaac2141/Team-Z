@@ -1,6 +1,6 @@
 //==================================================
 //===> Nombre del Programa:Suma de números
-//===> Archivo:SumaN.cpp
+//===> Archivo:BedoyaStefany-SumaN.cpp
 //===> Autor:Bedoya Napa Stefany Mishelle
 //===> Fecha de Elaboracion: 30/04/2022
 //===> Fecha de Actualización: 18/05/2022
@@ -11,7 +11,7 @@ int main()
 {
 cout<<"//==============================================="<<endl;
 cout<<"//===> Nombe del Programa:Suma de numeros"<<endl;
-cout<<"//===> Archivo:SumaN.cpp"<<endl;
+cout<<"//===> Archivo:BedoyaStefany-SumaN.cpp"<<endl;
 cout<<"//===> Autor:Bedoya Napa Stefany Mishelle"<<endl;
 cout<<"//===> Fecha de Elaboracion:30/04/2022"<<endl;
 cout<<"//===> Fecha de Actualizacion:18/05/2022"<<endl;
