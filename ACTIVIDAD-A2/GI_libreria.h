@@ -116,7 +116,7 @@ int IS_dd,IS_mm,IS_yy,IS_dd1,IS_mm1,IS_yy1,IS_da,IS_ma,IS_ya;
         else{
                 IS_ma=IS_mm-IS_mm1;
         }
-        cout<<"//================================================"<<endl;                       cout<<"//==> Nombre de programa: Descrifrar la edad"<<endl;                                     cout<<"//==> Archivo: GonzalezIsaac-laedad.cpp"<<endl;                                          cout<<"//==> Autor: Gonzalez Isaac"<<endl;      cout<<"//==> Fecha de elaboracion: 02-05-2022"<<endl;                                           cout<<"//==> Fecha de ultima actualizacion: 18-05-2022"<<endl;                                  cout<<"//================================================="<<endl;
+        cout<<"//================================================"<<endl;                       cout<<"//==> Nombre de programa: Calcular la edad"<<endl;                                     cout<<"//==> Archivo: GonzalezIsaac-laedad.cpp"<<endl;                                          cout<<"//==> Autor: Gonzalez Isaac"<<endl;      cout<<"//==> Fecha de elaboracion: 02-05-2022"<<endl;                                           cout<<"//==> Fecha de ultima actualizacion: 18-05-2022"<<endl;                                  cout<<"//================================================="<<endl;
         IS_ya=IS_yy-IS_yy1;
         cout<<"Usted Tiene: "<<IS_ya<<" años "<<IS_ma<<" meses "<<" y "<<IS_da<<" dias "<<endl;
         return 0;
