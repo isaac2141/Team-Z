@@ -17,7 +17,7 @@ using namespace std;
 
 int main()
 {
-	int op,flag;
+int op,flag;
 
 	do{
 	system("clear");
