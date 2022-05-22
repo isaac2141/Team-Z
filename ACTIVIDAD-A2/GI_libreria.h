@@ -1,4 +1,5 @@
-// Funciones implementadas por Gonzalez Isaac
+//===> Funciones implementadas por:
+//Gonzalez Sanchez Isaac Exequiel. 
 //
 //
 //
