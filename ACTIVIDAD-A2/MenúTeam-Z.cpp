@@ -9,7 +9,7 @@ using namespace std;
 #include "GI_libreria.h"
 #include "GE_libreria.h"
 #include "BS_libreria.h"
-//#include "DD_libreria.h"
+#include "DG_libreria.h"
 //#include "DD_libreria.h"
 
 
@@ -25,7 +25,8 @@ int main()
 	cout<<"1.- Programas de Gonzalez Isaac \n";
 	cout<<"2.- Programas de Granja Estefania\n";
 	cout<<"3.- Programas de Bedoya Stefany \n";
-			cout<<"0.- Salir del menu. \n";
+	cout<<"4.- Programas de Garcia Dayana \n";		
+		cout<<"0.- Salir del menu. \n";
 			cout<<" Ingrese una opcion : "; cin>>op; //la variable op siver para la oppcion a escoger
 			switch(op){
 				case 1:
@@ -39,8 +40,7 @@ int main()
 					BS_menu();
 					break;
 				case 4:
-					//TRABAJO DEL INTEGRANTE 4.
-					cout<<"\n AQUI PUEDO REVISAR LOS TRABAJO DEL INTEGRANTE 4 ";
+					DG_menu();
 					break;
 				case 5:
 					//TRABAJO DEL INTEGRANTE 4.
