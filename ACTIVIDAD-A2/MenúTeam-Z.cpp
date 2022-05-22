@@ -1,6 +1,6 @@
-// Autores: Gonzalez Isaac,
+// Autores: Gonzalez Isaac,Barrera Kiara,
 // Fecha de creación: 19-05-2022
-// Fecha de ultima actualizacion: 19-05-2022
+// Fecha de ultima actualizacion: 22-05-2022
 
 
 #include<iostream>
@@ -9,7 +9,7 @@ using namespace std;
 #include "GI_libreria.h"
 #include "GE_libreria.h"
 #include "BS_libreria.h"
-//#include "DD_libreria.h"
+#include "BK_libreria.h"
 //#include "DD_libreria.h"
 
 
@@ -25,6 +25,7 @@ int main()
 	cout<<"1.- Programas de Gonzalez Isaac \n";
 	cout<<"2.- Programas de Granja Estefania\n";
 	cout<<"3.- Programas de Bedoya Stefany \n";
+	cout<<"4.- Programas de Barrera Kiara \n";
 			cout<<"0.- Salir del menu. \n";
 			cout<<" Ingrese una opcion : "; cin>>op; //la variable op siver para la oppcion a escoger
 			switch(op){
@@ -39,8 +40,7 @@ int main()
 					BS_menu();
 					break;
 				case 4:
-					//TRABAJO DEL INTEGRANTE 4.
-					cout<<"\n AQUI PUEDO REVISAR LOS TRABAJO DEL INTEGRANTE 4 ";
+					BK_menu();
 					break;
 				case 5:
 					//TRABAJO DEL INTEGRANTE 4.
