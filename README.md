@@ -1,5 +1,5 @@
 # Team-Z
-## Estudiantes de 1ro "B" de TICS, de la UTELVT
+## Estudiantes de 1ro "B" de TICS, de la UTELVT.
 ## Trabajos grupales de Programacion
 ### Integrantes del grupo:
 `Gonzalez Sanchez Isaac Exequiel`
