@@ -1,4 +1,4 @@
-// Autores: Gonzalez Isaac,Barrera Kiara,Bedoya Stefany,Garcia Dayana
+// Autores: Gonzalez Isaac,Barrera Kiara,Bedoya Stefany,Garcia Dayana y Granja Estefanía.
 // Fecha de creación: 19-05-2022
 // Fecha de ultima actualizacion: 22-05-2022
 
